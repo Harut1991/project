@@ -1,0 +1,36 @@
+@import "unt.scss";
+
+$primary-color:red;
+$font-font:#333;
+
+
+body
+{
+	background: $primary-color;
+}
+.font{
+	width: 50%;
+	height: 200px;
+	background: $font-font;
+}
+.nav{
+	width: 50%;
+	background: $font-font;
+	height: 200px;
+
+	li{
+		color: white;
+		list-style-type: none;
+
+	}
+	ul{
+		padding-left: 50px;
+
+	}
+}
+.ask{
+	width: 100%;
+	height: 300px;
+	background: $font-font;
+	margin-top: 50px;
+}
